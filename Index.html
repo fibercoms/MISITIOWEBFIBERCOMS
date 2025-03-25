@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="Imagen/logo.png"></a>
+        <h1>FIBER COMS</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+             
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Quienes somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="Imagen/Logo2.jpg" width="350" height="300"alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>FIBER COMS</h2>
+                <p>Nuestra misión es brindarte producctos de alta calidad en fibra optica</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="Imagen/producto2.jpg" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial carrete.</h2>
+                        <p>Fibra reforzada con forro de aluminio.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="Imagen/producto3.jpg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial carrete.</h2>
+                        <p>Fibra optica con forro reforzado y hilo de keblar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>Servicio 1: $1500</li>
+                    <li>Servicio 2: $295</li>
+                    <li>Servicio 3: $305</li>
+                    <li>Servicio 4: $2000</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="Imagen/producto4.jpg" width="200" height="200"alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="Imagen/Marca1.jpg" alt="Marca 1">
+                <img src="Imagen/Marca2.jpg" alt="Marca 2">
+                <img src="Imagen/Marca3.jpg" alt="Marca 3">
+                <img src="Imagen/Marca4.jpg" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: FIBERCOMS@GMAIL.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
