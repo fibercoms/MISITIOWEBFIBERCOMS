@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+  <a href="Index.html" class="logo"><img src="imagen/logo.png"></a>
+  <h1>FIBER COMS</h1>
+  <nav class="navbar">
+    <span class="icon" onclick="toggleMenu()">&#9776;</span>
+    <ul class="menu" id="menu">
+      <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Quienes somos.html"> Quienes somos</a></li>
+      <li><a href="productos.html">Catálogo</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+     </nav>
+   </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/logo2.jpg" alt="imagen 1" width="300" height="300">
+            </div>
+            <div class="derecha">
+                <h2>FIBER COMS</h2>
+                <p>Nuestro objetivo es que te sientas seguro al instalar un servicio de fibra a tu cliente.</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Mision -->
+        <section id="Misión">
+            <h2>Misión</h2>
+            <div class="catalogo">
+                <!-- Misión -->
+                <div class="producto">
+                    <img src="imagen/p3.jpg" alt="imagen 2">
+                    <div class="producto-info">
+                        <h2>Buscamos entregar la mejor calidad alos compradores en fibra optica de alta calidad.</h2>
+                    </div>
+                </div>
+                        <!-- Sección de Vision -->
+        <section id="Visión">
+            <h2>Visión</h2>
+                <!-- Visión -->
+                <div class="producto">
+                    <img src="imagen/p1.jpg" alt="imagen 3">
+                    <div class="producto-info">
+                        <h2> Ser una empresa con la mejor calidad de productos para los servicios de la telecomunicacion a nivel nacional.</h2>
+                    </div>
+                </div>
+            </div>
+            </section>
+        
+        <!-- Sección de Servicios -->
+        <section id="Calzado" class="columnas">
+            <div class="izquierda">
+                <h2>Información al (913 124 0325)</h2>
+                </ul>
+             <video width="320" height="240" controls>
+                <source src="Video/video.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+                </video>
+                    <section id="Calzado" class="columnas">
+            <div class="izquierda">
+                <h2>CHICOCHE CHICO</h2>
+                </ul>
+            <Audio width="320" height="240" controls>
+                  <source src="Audio/Audio.mp3" type="audio/mp3">
+                Tu navegador no soporta el formato de audio.
+                </Audio>
+            </div>
+            <div class="derecha">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Ultima moda en calida de fibra optica,mantente informado no te quedes anticuado.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto:FIBERCOMS@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
